@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/login_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="User Name"
+       android:layout_marginTop="200dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:textSize="24dp"
+
+       />
+
+   <EditText
+       android:id="@+id/login"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:inputType="textPersonName"
+       android:layout_below="@+id/login_text"
+      />
+
+   <TextView
+       android:id="@+id/password_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Password"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:textSize="24dp"
+       android:layout_below="@+id/login"
+
+
+       />
+
+   <EditText
+       android:id="@+id/password"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:inputType="textPersonName"
+       android:layout_below="@+id/password_text"
+       />
+
+   <Button
+      android:id="@+id/buttonLogin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Login"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:layout_below="@+id/password"
+      android:textSize="24dp"/>
+
+
+
+</RelativeLayout>
